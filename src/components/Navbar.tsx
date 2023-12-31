@@ -24,9 +24,9 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo " className='w-9 h-9 object-container' />
           <p 
-            className='text-white text-[18px] font-bold cursor-pointer'
+            className='text-white text-[18px] font-bold cursor-pointer  '
           >
-            Abhishek  <span className='sm:block hidden'>| Full Stack Developer</span>
+            Abhishek &nbsp; <span className='sm:block hidden'>| Full Stack Developer</span>
           </p>
         </Link>
         <ul
@@ -51,8 +51,26 @@ const Navbar = () => {
           <img src={toggle?close: menu } alt="menu" className='w-[28px] h-[28px] object-centain cursor-pointer'
             onClick={()=>setToggle(!toggle)}
            />
-           <div className={`${!toggle? 'hidden': 'flex'} p-6 `}> 
+           <div className={`${!toggle? 'hidden': 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl `}> 
+           <ul
+          className='list-none flex justify-end items-start flex-col gap-4'
+        >
+          {navLinks.map((link) =>(
+              <li
+                key={link.id}
+                className={`${
+                  active === link.title ?"text-white": "text-secondary"
+                } font-poppins font-medium cursor-pointer text-[16px]`}
+                onClick={ () => {
+                  setToggle(!toggle);
+                  setActive(link.title);
+                } }
+              >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+          ))}
 
+        </ul>
            </div>
         </div>
       </div>
