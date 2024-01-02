@@ -2,7 +2,7 @@
 import Tilt from 'react-parallax-tilt'
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { services } from "../constants";
+import { services,descriptions } from "../constants";
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Motivated professional with expertise in Full Stack development. Proven track record of delivering exceptional results. Skilled in backend programming. Seeking new challenges and opportunities for growth. Let's connect and explore collaboration possibilities.
+       {descriptions.about}
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10' >
     {services.map((service, index) => (
