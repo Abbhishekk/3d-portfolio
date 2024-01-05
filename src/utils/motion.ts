@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export const textVariant = (delay: any) => {
     return {
       hidden: {
@@ -75,7 +76,7 @@ export const textVariant = (delay: any) => {
     };
   };
   
-  export const staggerContainer = (staggerChildren: any, delayChildren: any) => {
+  export const staggerContainer = (staggerChildren: any = "", delayChildren: any = "") => {
     return {
       hidden: {},
       show: {

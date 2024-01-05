@@ -1,4 +1,5 @@
-import React,{Suspense} from 'react'
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import {Suspense} from 'react'
 import { Canvas } from '@react-three/fiber'
 import {
   Decal,Float, OrbitControls, Preload, useTexture

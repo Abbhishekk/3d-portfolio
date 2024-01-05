@@ -30,7 +30,7 @@ import resume from "./Abhishek_Bante.pdf"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 import flask from "./tech/flask.png"
 import abcoedtech from "./company/AbCoEdTech.png"
 import acetech from "./company/ACETECH.png";
@@ -70,7 +70,7 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
+
   flask,
   abcoedtech,
   acetech,
