@@ -26,9 +26,21 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import resume from "./Abhishek_Bante.pdf"
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import flask from "./tech/flask.png"
+import abcoedtech from "./company/AbCoEdTech.png"
+import acetech from "./company/ACETECH.png";
+import sms from "./sms.png";
+import acetechWebsite from "./acetech.png";
+
+import sports from "./sports.png"
+import pomodoro from "./pomodoro.png";
+import nifse from "./nifse.png";
+import camera from "./camera.png"
 
 export {
   logo,
@@ -59,4 +71,14 @@ export {
   carrent,
   jobit,
   tripguide,
+  flask,
+  abcoedtech,
+  acetech,
+  sms,
+  acetechWebsite,
+  sports,
+  pomodoro,
+  nifse,
+  camera,
+  resume
 };

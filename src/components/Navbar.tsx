@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react'
+import {useState} from 'react'
 import { Link } from 'react-router-dom'
 // import { Navigate } from 'react-router-dom'
 import {styles} from "../styles";
@@ -40,7 +40,7 @@ const Navbar = () => {
                 } hover:text-white text-[18px] font-medium cursor-pointer `}
                 onClick={ () => setActive(link.title)}
               >
-                <a href={`#${link.id}`}>{link.title}</a>
+                <a href={ link.id === "resume"? "resume" : `#${link.id}`}>{link.title}</a>
               </li>
           ))}
 

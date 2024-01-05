@@ -5,18 +5,20 @@ import {Hero,
   Tech,
   Experience,
   Works,
-  Feedbacks,
+  // Feedbacks,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
   StarsCanvas} from "./components"
-const App = () => {
   
+ 
+
+  
+const App = () => {
+ 
 
   return (
     
-    <BrowserRouter>
+    <BrowserRouter >
+      
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> 
           <Navbar />
@@ -25,7 +27,7 @@ const App = () => {
           <Experience />
           <Tech />
           <Works />
-          <Feedbacks />
+          {/* <Feedbacks /> */}
           <div className="relative z-0"> 
                 <Contact />
                 <StarsCanvas />
@@ -33,6 +35,7 @@ const App = () => {
           </div>
         </div>
       </div>
+     
     </BrowserRouter>
    
   )

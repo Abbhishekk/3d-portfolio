@@ -8,21 +8,20 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  flask,
+  abcoedtech,
+  acetech,
+  sms,
+  acetechWebsite,
+  sports,
+  pomodoro,
+  nifse,
+  camera
 } from "../assets";
 
 export const navLinks = [
@@ -38,6 +37,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "AI Integration",
     icon: creator,
   },
 ];
@@ -81,8 +81,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Flask",
+    icon: flask,
   },
   {
     name: "Tailwind CSS",
@@ -104,67 +104,35 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "PHP Developer",
+    company_name: "AbCoEdTech pvt. ltd.",
+    icon: abcoedtech,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using PHP and other related technologies.",
+      " We have implemented SQl based database and PHP in the development.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Freelance Developer",
+    company_name: "Acetech",
+    icon: acetech,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed Student management system using PHP and MySQL.",
     ],
   },
 ];
@@ -198,67 +166,139 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Student Management System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Student Management System (SMS) is a digital platform that automates student-related tasks, from enrollment to grade tracking, streamlining administrative processes for institutions.",
     tags: [
       {
-        name: "react",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Bootstrap5",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: sms,
+    source_code_link: "https://github.com/Abbhishekk/student-management-sysytem",
   },
   {
-    name: "Job IT",
+    name: "Acetech institution official website ",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Official website for ACETECH institution where students can login/register or even explore different available courses. Student can track their fees and course by loging in it",
     tags: [
       {
-        name: "react",
+        name: "HTML5",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "PHP",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: acetechWebsite,
+    source_code_link: "https://acetech.abcoedtech.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Sports Scheduler",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A sports scheduler is a tool that helps you plan and organize sports events or tournaments. It can help you set the dates, times, venues, and teams for each game or match. Some sports schedules also allow you to track scores, standings, play-offs, and other information related to your sports.",
     tags: [
       {
-        name: "nextjs",
+        name: "NodeJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "PostgreSql",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "TailwindCss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: sports,
+    source_code_link: "https://github.com/Abbhishekk/sports-scheduler",
+  },
+  
+  {
+    name: "Pomodoro Timer",
+    description:
+      "The Pomodoro Technique is a time management method that involves breaking your work into focused intervals (usually 25 minutes) separated by short breaks.",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pomodoro,
+    source_code_link: "https://github.com/Abbhishekk/Pomodoro",
+  },
+  {
+    name: "NIFSE college official website ",
+    description:
+      "National Institute of Fire Safety Engineering is a college for fire engineering. ",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Codeignitor",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: nifse,
+    source_code_link: "https://nifse.in/",
+  },
+  {
+    name: "Basic Camera App ",
+    description:
+      "Basic camera app developed using Flask framework. ",
+    tags: [
+      {
+        name: "HTML5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Flask",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: camera,
+    source_code_link: "https://github.com/Abbhishekk/Camera_App",
   },
 ];
 

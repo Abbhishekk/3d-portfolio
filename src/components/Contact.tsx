@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 import {motion } from "framer-motion";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -8,11 +8,7 @@ import emailjs from "@emailjs/browser";
 import { SubmitHandler, useForm } from "react-hook-form";
 
 
-interface FormProps {
-  name: string;
-  email: string;
-  message: string;
-}
+
 type formElements = {
   name: string
   email: string
