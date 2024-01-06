@@ -248,7 +248,7 @@ const projects = [
       },
     ],
     image: pomodoro,
-    source_code_link: "https://github.com/Abbhishekk/Pomodoro",
+    source_code_link: "https://abbhishekk.github.io/Pomodoro/",
   },
   {
     name: "NIFSE college official website ",
