@@ -22,10 +22,10 @@ const Contact = () => {
   // const formRef = useRef<FormProps>(null);
   console.log(watch("message"));
 
-  const onSubmit:SubmitHandler<formElements> = (data) =>{
+  const onSubmit:SubmitHandler<formElements> = (data:formElements) =>{
   const {name, email, message} = data;
   setLoading(true);
-  emailjs.send('service_rstvjyx', 'template_0zjhjzk', {form_name: name, to_name: 'Abhishek', from_email: email,to_email: "abhishekbante01@gmail.com" , message}, 'pRuVROAFzzOM5uAZ6')
+  emailjs.send('service_rstvjyx', 'template_0zjhjzk', {from_name: name, to_name: 'Abhishek', from_email: email,to_email: "abhishekbante01@gmail.com" , message}, 'pRuVROAFzzOM5uAZ6')
       .then((result) => {
         setLoading(false);
         alert("Thank you! I will contact you as soon as possible.");
