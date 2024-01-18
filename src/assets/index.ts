@@ -36,6 +36,7 @@ import abcoedtech from "./company/AbCoEdTech.png"
 import acetech from "./company/ACETECH.png";
 import sms from "./sms.png";
 import acetechWebsite from "./acetech.png";
+import movix from "./movix.png";
 
 import sports from "./sports.png"
 import pomodoro from "./pomodoro.png";
@@ -80,5 +81,6 @@ export {
   pomodoro,
   nifse,
   camera,
-  resume
+  resume,
+  movix
 };

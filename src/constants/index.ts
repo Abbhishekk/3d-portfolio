@@ -19,9 +19,10 @@ import {
   sms,
   acetechWebsite,
   sports,
-  pomodoro,
+  
   nifse,
-  camera
+  movix,
+  pomodoro
 } from "../assets";
 
 export const navLinks = [
@@ -248,7 +249,7 @@ const projects = [
       },
     ],
     image: pomodoro,
-    source_code_link: "https://abbhishekk.github.io/Pomodoro/",
+    source_code_link: "https://movix-abhishek.netlify.app/",
   },
   {
     name: "NIFSE college official website ",
@@ -276,28 +277,28 @@ const projects = [
     source_code_link: "https://nifse.in/",
   },
   {
-    name: "Basic Camera App ",
+    name: "Movix ",
     description:
-      "Basic camera app developed using Flask framework. ",
+      "Ditch the Boring and dive Deep into Movies with Movix!",
     tags: [
       {
-        name: "HTML5",
+        name: "ReactJs",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "TailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "Python",
+        name: "API",
         color: "pink-text-gradient",
       },
       {
-        name: "Flask",
+        name: "Redux-Toolkit",
         color: "orange-text-gradient",
       },
     ],
-    image: camera,
+    image: movix,
     source_code_link: "https://github.com/Abbhishekk/Camera_App",
   },
 ];
